@@ -23,6 +23,6 @@ class cs21b033(nn.Module):
         x = self.m(x)
         return x
 
-    def get_model():
-      model = cs21b033()
-      return model
+def get_model():
+    model = cs21b033()
+    return model
